@@ -19,9 +19,9 @@ Implement Insertion Sort.
   - Is it in-place?
     - If the insert is swapping items, it is likely in place. If it creates a new array during insertion, it is not in-place.
   - Is it stable?
-    - Most likley not, depends on implementation.
+    - Most likely not, depends on implementation.
   - Is it adaptable?
-    - Most likley, depends on implementation.
+    - Most likely, depends on implementation.
   - What's the time and space complexity? 
     - Time: If the insertion uses binary sort to find the insertion index, O(NlogN), otherwise, likely O(N^2) 
     - Space: If it is in-place swapping items, O(1) the index to swap and insert. If it is creating a new array, O(n)
