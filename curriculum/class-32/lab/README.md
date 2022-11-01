@@ -26,7 +26,7 @@ In Phase 2, we're going to extend the functionality of our application by allowi
   - This should be given in the form of a new component, perhaps linked to from the main navigation
   - *Hint: Use Browser Router to create the page/route/component for this*
   - Once settings are updated, render the updated settings to the right of the "form".  Consider using `Grid`, `Card`, and `When` components.
-- Save the users choices in Local Storage
+- Save the user preferences in Local Storage
 - Retrieve their preferences from Local Storage and apply them to the application on startup
 
 #### ToDo Comp
