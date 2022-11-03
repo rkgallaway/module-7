@@ -26,7 +26,7 @@ Refer to the [To Do System Overview](../../apps-and-libraries/todo/README.md) fo
 ## Learning Outcomes
 
 - Learn React context functionality and gain overall React fluency.
-- Gain provicency in reading documentation by using a new component Library.
+- Gain provicency in reading documentation by using a new component library.
 - Practice JavaScript array manipulation by implementing pagination.
 - Gain React testing fluency.
 
