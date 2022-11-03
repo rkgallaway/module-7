@@ -51,7 +51,7 @@ In Phase 1, we're going to perform some refactoring of a ToDo application built 
 
 1. Implement the React `context` API for defining `settings` across the entire application.
    - Create React Context for managing application display settings and provide this at the application level.
-   - Manually set (hard code) the following state settings in the context provider's state, they should not be changeable.
+   - Add the following defaults to the context provider's state, they will not be changeable in this lab.
      - Display three items. 
      - Hide completed items using a boolean. 
      - Define "difficulty" as a default sort word to *optionally* use in the stretch goal.
