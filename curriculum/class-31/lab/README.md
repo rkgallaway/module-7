@@ -40,14 +40,14 @@ In Phase 1, we're going to perform some refactoring of a ToDo application built 
 
 ## Technical Requirements / Notes
 
-> Create a settings Context that can define how our components should display elements to the User.
+> Create a settings Context Component that can define how our components should display elements to the User.
 
 1. Implement the React `context` API for defining `settings` across the entire application.
-   - Create a `context` for managing application display settings and provide this at the application level.
-   - Display or Hide completed items (boolean).
-   - Number of items to display per screen (number).
-   - Default sort field (string).
-   - Manually set (hard code) those state settings in the context provider's state, they should not be changeable.
+   - Create React Context for managing application display settings and provide this at the application level.
+   - Manually set (hard code) the following state settings in the context provider's state, they should not be changeable.
+         - Display three items. 
+         - Hide completed items using a boolean. 
+         - Define "difficulty" as a default sort word which *may* be used in the stretch goal.
 
 1. Consume and utilize `context` values throughout your components.
    - Show a maximum of three items per screen by default in the `<List />` component.
