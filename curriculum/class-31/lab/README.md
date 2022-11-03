@@ -64,7 +64,7 @@ In Phase 1, we're going to perform some refactoring of a ToDo application built 
 ### Pagination Notes:
 
 - Only display the first `n` items in the list, where `n` is the default number three from your settings context.
-  - If you have more than `n` items in the list, the `Pagination` Component will add a button that, when clicked, will replace the list with the next `n`. items in the list.
+  - If you have more than `n` items in the list, the `Pagination` component will add a button that, when clicked, will replace the list with the next `n`. items in the list.
   - the `Pagination` component will manage the "previous" and "next" buttons upon correct implementation.
 
 ### Application Structure (proposed)
