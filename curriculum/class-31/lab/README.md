@@ -58,7 +58,7 @@ In Phase 1, we're going to perform some refactoring of a ToDo application built 
 
 1. Consume and utilize `context` values throughout your components.
    - Show a maximum of three items per screen by default in the `<List />` component.
-   - Use the Mantine `Pagination` component to allow the users navigate a list of items.
+   - Use the Mantine `Pagination` component to allow users to navigate a list of items.
    - Hide completed items in the list by default (the ability to show will be added in a later lab).
 
 ### Pagination Notes:
