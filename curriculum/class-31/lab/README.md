@@ -8,10 +8,10 @@ Currently, a user can add todo tasks to the proof-of-life starter application. I
 
 Refer to *Getting Started*  in the [lab submission instructions](https://codefellows.github.io/code-401-javascript-guide/reference/submission-instructions/labs/) for complete setup, configuration, deployment, and submission instructions.
 
-1. Create a new React app named `todo-app`
+1. Use Create React App to create a new application named `todo-app` using the command: `npx create-react-app todo-app`.
 1. Delete the existing `src` directory
 1. Paste in the `src` folder from the `lab/starter-code`
-1. Run `npm install uuid sass` to install necessary dependencies
+1. Run `npm install uuid sass` to install additional necessary dependencies
 1. `npm start` and confirm that the application loads in the browser
 1. Create an **EMPTY** GitHub Repository named `todo-app`
 1. Follow GitHub instructions labeled "…or push an existing repository from the command line"
