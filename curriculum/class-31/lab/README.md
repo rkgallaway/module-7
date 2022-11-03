@@ -23,6 +23,13 @@ Refer to *Getting Started*  in the [lab submission instructions](https://codefel
 
 Refer to the [To Do System Overview](../../apps-and-libraries/todo/README.md) for a complete review of the application, including Business and Technical requirements along with the development road map.
 
+## Learning Outcomes
+
+- Learn React context functionality and gain overall React fluency.
+- Gain provicency in reading documentation by using a new component Library.
+- Practice JavaScript array manipulation by implementing pagination.
+- Gain React testing fluency.
+
 ## Phase 1 Requirements
 
 In Phase 1, we're going to perform some refactoring of a ToDo application built by another team. This application mixes application state and user settings at the top level and passes things around. It was a good proof of concept, but we need to make this production ready.
@@ -40,7 +47,7 @@ In Phase 1, we're going to perform some refactoring of a ToDo application built 
 
 ## Technical Requirements / Notes
 
-> Create a settings Context Component that can define how our components should display elements to the User.
+> Create a settings Context component that can define how our components should display elements to the User.
 
 1. Implement the React `context` API for defining `settings` across the entire application.
    - Create React Context for managing application display settings and provide this at the application level.
@@ -58,7 +65,7 @@ In Phase 1, we're going to perform some refactoring of a ToDo application built 
 
 - Only display the first `n` items in the list, where `n` is the default number three from your settings context.
   - If you have more than `n` items in the list, the `Pagination` Component will add a button that, when clicked, will replace the list with the next `n`. items in the list.
-  - the `Pagination` Component will manage the "previous" and "next" buttons upon correct implementation.
+  - the `Pagination` component will manage the "previous" and "next" buttons upon correct implementation.
 
 ### Application Structure (proposed)
 
@@ -101,7 +108,7 @@ In this proposal:
 ### Stretch Goals
 
 - Sort the items based on any of the keys (i.e. difficulty).
-- In your Context Component, read the settings in from an object in Local Storage and use that as the initial state.
+- In your Context component, read the settings in from an object in Local Storage and use that as the initial state.
 
 ### Testing
 
@@ -113,13 +120,6 @@ In this proposal:
 
 - Describe how global state is consumed by the components.
 - Describe the operation of the hook: `useForm()`.
-
-### Learning Outcomes
-
-- Learn React context functionality and gain overall React fluency.
-- Gain provicency in reading documentation by using a new component Library.
-- Practice JavaScript array manipulation by implementing pagination.
-- Gain React testing fluency.
 
 ### Assignment Submission Instructions
 
