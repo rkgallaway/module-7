@@ -96,7 +96,7 @@ In this proposal:
 │   │   │   └── settings.test.js (unit test)
 │   ├── hooks
 │   │   └── form.js
-│   │   └── styles.js (optional - see Mantine Docs)
+│   │   └── styles.js (optional)
 │   ├── App.js
 │   ├── index.js
 ├── .gitignore
