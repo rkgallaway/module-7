@@ -94,8 +94,9 @@ In this proposal:
 │   │   │   └── Settings.jsx
 │   │   │   └── settings.test.js
 │   ├── hooks
-│   │   └── axios.js
+│   │   └── axios.js (optional)
 │   │   └── form.js
+│   │   └── styles.js (optional)
 │   ├── App.js
 │   ├── index.js
 ├── .gitignore
