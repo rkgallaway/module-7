@@ -8,15 +8,15 @@ Currently, a user can add todo tasks to the proof-of-life starter application. I
 
 Refer to *Getting Started*  in the [lab submission instructions](https://codefellows.github.io/code-401-javascript-guide/reference/submission-instructions/labs/) for complete setup, configuration, deployment, and submission instructions.
 
-1. Use Create React App to create a new application named `todo-app` using the command: `npx create-react-app todo-app`.
+1. Use Create React App (CRA) to create a new application named `todo-app`.
 1. Delete the existing `src` directory
-1. Paste in the `src` folder from the `lab/starter-code`
-1. Run `npm install uuid sass` to install additional necessary dependencies
-1. `npm start` and confirm that the application loads in the browser
-1. Create an **EMPTY** GitHub Repository named `todo-app`
-1. Follow GitHub instructions labeled "…or push an existing repository from the command line"
-1. Note: after completeing the above step, Create-React App(CRA) starter code will have been pushed up to GitHub
-1. Immediately `ACP` after adding your newly created repo to GitHub; this will add starter-code to your repo and give you the option to rollback changes to the base starter code if necessary.
+1. Paste in the `src` directory from the `lab/starter-code`
+1. Run `npm install uuid sass`.
+1. `npm start` and confirm that the application loads in the browser.
+1. Create an **EMPTY** GitHub Repository named `todo-app`.
+1. Follow GitHub instructions labeled "…or push an existing repository from the command line".
+1. Note: after completeing the above step, CRA starter code will have been pushed to your GitHub Repo.
+1. Immediately `ACP` after adding your newly created repo to GitHub; this will add the starter-code to your repo and give you the option to rollback changes to the base starter code if necessary.
 1. Create and work in a new branch for today called `context-settings`.  
 
 ## Business Requirements
